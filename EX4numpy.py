@@ -15,6 +15,6 @@ print(d)
 #生成一个3*4，从0到12的矩阵
 e= np.arange(12).reshape((3,4))
 print(e)
-#生产一个数列，数列中从1开始到10，分为5段6个点,同样可以通过reshape来变化为矩阵
+#生成一个数列，数列中从1开始到10，分为5段6个点,同样可以通过reshape来变化为矩阵
 f= np.linspace(1,10,6).reshape((2,3))
 print(f)
