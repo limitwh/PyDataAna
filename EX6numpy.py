@@ -26,3 +26,9 @@ print(np.transpose(A))
 print(A.T.dot(A))
 #所有小于5的元素变为5，大于9的元素变为9
 print(np.clip(A,5,9))
+#可以指定需要计算的行或者列，axis是维度的意思
+print(A)
+#对列计算平均值：
+print(np.mean(A,axis=0))
+#对行计算平均值：
+print(np.mean(A,axis=1))
