@@ -1,3 +1,4 @@
+#数列内部方法与属性
 import numpy as np
 A = np.arange(14,2,-1).reshape((3,4))
 print(A)

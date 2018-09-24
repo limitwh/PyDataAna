@@ -1,3 +1,4 @@
+#矩阵的行列操作
 import numpy as np
 A = np.arange(3,15).reshape((3,4))
 print(A)
