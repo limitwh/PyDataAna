@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
-sdata = {'Ohio':35000,'Texas':71000,'Oregen':16000,'Utah':5000}
+sdata = {'Ohio':35000,'Texas':71000,'Oregon':16000,'Utah':5000}
 states = ['California','Ohio','Oregon','Texas']
 obj0 = pd.Series(sdata)
 obj1 = pd.Series(sdata,index=states)
